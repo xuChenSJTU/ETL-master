@@ -1,7 +1,5 @@
 # CUPL-master
-This is a pytorch implementation of our paper: "Learning Complete User Preferences for Cross Domain Recommendation"  
-
-You can access the paper through:  
+This is a pytorch implementation of our paper: "Learning Complete User Preferences for Cross Domain Recommendation"   
 
 **Running Tips**  
 This folder contains the thhree datasets used in our paper and the codes of our CUPL model. Specifically, main_my.py is our model and the other four main_xxx.py files are four variants of CUPL in the abalation study of our paper.  
@@ -26,13 +24,6 @@ CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon2 --reg=0.5
 CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon3 --reg=1.0  
 
 In this way, you can get he results. Besides, if you want to run the variants of CUPL, just follow the same way while with different main files.  
-If you find the codes are useful, please cite our paper.
-
-@article{xu2020learning,  
-  title={Learning Complete User Preferences for Cross Domain Recommendation},  
-  author={Xu Chen, Ya Zhang, Ivor Tsang, Yuangang Pan and Jingchao Su},  
-  journal={arXiv preprint arXiv:xxxx.xxxxx},  
-  year={2020}  
-}  
+If you find the codes are useful, please cite our paper. 
 
 This paper is submitted to a journal and we would release more information later.
