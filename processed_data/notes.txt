@@ -1,0 +1,4 @@
+The original data has large memory and we cannot upload to Github directly.
+Instead, please download it from Google drive or Baidu disk by following the advice on the project page.
+
+Thanks.
