@@ -10,7 +10,7 @@ This folder contains the thhree datasets used in our paper and the codes of our 
 Download the processed data files from Google drive: and Baidu disk: . When you download the processed_data, you can replace the dir here and directly run our codes! Note that the data_filter_amazon.py under processed_data dir is the file that pre-processes the original data. 
 
 1. Requirements:  
-pytorch==;  
+python3.5; pytorch=1.4.0; tqdm=4.27.0; tensorboardX=1.8; pandas=0.25; numpy=1.15; networkx=2.2; logger=1.4; scipy=1.1; scikit-learn=0.20   
 
 2. Run the codes with the following commands on different datasets (amazon means "Movie & Book", amazon2 means "Movie & Music" and amazon3 means "Music & Book").  
 
