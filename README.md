@@ -7,7 +7,8 @@ You can access the paper through:
 This folder contains the thhree datasets used in our paper and the codes of our CUPL model. Specifically, main_my.py is our model and the other four main_xxx.py files are four variants of CUPL in the abalation study of our paper.  
 
 **0. Data preparation:**  
-Download the processed data files from Google drive: and Baidu disk: . When you download the processed_data, you can replace the dir here and directly run our codes! Note that the data_filter_amazon.py under processed_data dir is the file that pre-processes the original data. 
+Download the processed data files from Google drive: and Baidu disk: https://pan.baidu.com/s/1UD5ezVqjsMBmIgQXl1CA-g  password:yk2i.  
+When you download the processed_data, you can replace the dir here and directly run our codes! Note that the data_filter_amazon.py under processed_data dir is the file that pre-processes the original data. 
 
 **1. Requirements:**  
 python3.5; pytorch=1.4.0; tqdm=4.27.0; tensorboardX=1.8; pandas=0.25; numpy=1.15; networkx=2.2; logger=1.4; scipy=1.1; scikit-learn=0.20   
