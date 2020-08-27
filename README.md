@@ -24,6 +24,5 @@ CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon2 --reg=0.5
 CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon3 --reg=1.0  
 
 In this way, you can get he results. Besides, if you want to run the variants of CUPL, just follow the same way while with different main files.  
-If you find the codes are useful, please cite our paper. 
 
 This paper is submitted to a journal and we would release more information later.
