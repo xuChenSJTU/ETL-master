@@ -5,7 +5,8 @@ This is a pytorch implementation of our paper: "Learning Complete User Preferenc
 This folder contains the thhree datasets used in our paper and the codes of our CUPL model. Specifically, main_my.py is our model and the other four main_xxx.py files are four variants of CUPL in the abalation study of our paper.  
 
 **0. Data preparation:**  
-Download the processed data files from Google drive: and Baidu disk: https://pan.baidu.com/s/1UD5ezVqjsMBmIgQXl1CA-g  password:yk2i.  
+Download the processed data files from Google drive: https://drive.google.com/drive/folders/1oIABLZE0UcEylLwiJrWY5R3rw7t739Zz?usp=sharing   
+and Baidu disk: https://pan.baidu.com/s/1UD5ezVqjsMBmIgQXl1CA-g  password:yk2i.  
 When you download the processed_data, you can replace the dir here and directly run our codes! Note that the data_filter_amazon.py under processed_data dir is the file that pre-processes the original data. 
 
 **1. Requirements:**  
