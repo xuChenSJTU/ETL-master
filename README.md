@@ -1,8 +1,8 @@
 # ETL-master
-This is a pytorch implementation of our paper: "Learning Complete User Preferences for Cross Domain Recommendation"   
+This is a pytorch implementation of our paper: "Towards Equivalent Transformation of User Preferences in Cross Domain Recommendation"   
 
 **Running Tips**  
-This folder contains the thhree datasets used in our paper and the codes of our CUPL model. Specifically, main_my.py is our model and the other four main_xxx.py files are four variants of CUPL in the abalation study of our paper.  
+This folder contains the thhree datasets used in our paper and the codes of our ETL model. Specifically, main_my.py is our model and the other four main_xxx.py files are four variants of ETL in the abalation study of our paper.  
 
 **0. Data preparation:**  
 Download the processed data files from Google drive: https://drive.google.com/drive/folders/1oIABLZE0UcEylLwiJrWY5R3rw7t739Zz?usp=sharing   
@@ -24,6 +24,6 @@ CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon2 --reg=0.5
 -->on Music & Book dataset:  
 CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon3 --reg=1.0  
 
-In this way, you can get he results. Besides, if you want to run the variants of CUPL, just follow the same way while with different main files.  
+In this way, you can get he results. Besides, if you want to run the variants of ETL, just follow the same way while with different main files.  
 
 This paper is submitted to a journal and we would release more information later.
