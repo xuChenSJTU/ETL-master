@@ -27,3 +27,13 @@ CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon3 --reg=1.0
 In this way, you can get he results. Besides, if you want to run the variants of ETL, just follow the same way while with different main files.  
 
 This paper is submitted to a journal and we would release more information later.
+
+If you find this paper or codes useful, please cite our paper. Thank you!  
+@article{chen2020equivalent,  
+      title={Towards Equivalent Transformation of User Preferences in Cross Domain Recommendation},   
+      author={Xu Chen and Ya Zhang and Ivor Tsang and Yuangang Pan and Jingchao Su},  
+      year={2020},  
+      eprint={2009.06884},  
+      archivePrefix={arXiv},  
+}  
+
