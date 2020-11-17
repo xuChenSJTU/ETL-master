@@ -7,7 +7,7 @@ This folder contains the thhree datasets used in our paper and the codes of our 
 **0. Data preparation:**  
 Download the processed data files from Google drive: https://drive.google.com/drive/folders/1oIABLZE0UcEylLwiJrWY5R3rw7t739Zz?usp=sharing   
 and Baidu disk: https://pan.baidu.com/s/1UD5ezVqjsMBmIgQXl1CA-g  password:yk2i.  
-When you download the processed_data, you can replace the dir here and directly run our codes! Note that the data_filter_amazon.py under processed_data dir is the file that pre-processes the original data. 
+When you download the processed_data, you can replace the dir here and directly run our codes! Note that the data_filter_amazon.py under processed_data dir is the file that pre-processes the original data. You can skip the pre-processing step if you download the processed data files.
 
 **1. Requirements:**  
 python3.5; pytorch=1.4.0; tqdm=4.27.0; tensorboardX=1.8; pandas=0.25; numpy=1.15; networkx=2.2; logger=1.4; scipy=1.1; scikit-learn=0.20   
@@ -28,7 +28,9 @@ In this way, you can get he results. Besides, if you want to run the variants of
 
 This paper is submitted to a journal and we would release more information later.
 
-If you find this paper or codes useful, please cite our paper. Thank you!  
+**If you find this paper or codes useful, please cite our paper. Thank you!**
+
+
 @article{chen2020equivalent,  
       title={Towards Equivalent Transformation of User Preferences in Cross Domain Recommendation},   
       author={Xu Chen and Ya Zhang and Ivor Tsang and Yuangang Pan and Jingchao Su},  
