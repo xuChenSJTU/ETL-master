@@ -4,12 +4,12 @@ This is a pytorch implementation of our paper: "Towards Equivalent Transformatio
 **Running Tips**  
 This folder contains the thhree datasets used in our paper and the codes of our ETL model. Specifically, main_my.py is our model and the other four main_xxx.py files are four variants of ETL in the abalation study of our paper.  
 
-**The directory originization**
-ETL-master/
-    processed_data/
-    saved_embeddings/my/none.txt
-    code_name1.py
-    code_name2.py  
+**The directory originization**  
+ETL-master/  
+    processed_data/  
+    saved_embeddings/my/none.txt  
+    code_name1.py  
+    code_name2.py    
 
 **0. Data preparation:**  
 Download the processed data files from Google drive: https://drive.google.com/drive/folders/1oIABLZE0UcEylLwiJrWY5R3rw7t739Zz?usp=sharing   
