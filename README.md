@@ -9,7 +9,7 @@ ETL-master/
     processed_data/  
     saved_embeddings/my/none.txt  
     code_name1.py  
-    code_name2.py    
+    code_name2.py x   
 
 **0. Data preparation:**  
 Download the processed data files from Google drive: https://drive.google.com/drive/folders/1oIABLZE0UcEylLwiJrWY5R3rw7t739Zz?usp=sharing   
