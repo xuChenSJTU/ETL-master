@@ -6,10 +6,10 @@ This folder contains the thhree datasets used in our paper and the codes of our 
 
 **The directory originization**  
 ETL-master/  
-    processed_data/  
-    saved_embeddings/my/none.txt  
-    code_name1.py  
-    code_name2.py x   
+----processed_data/  
+----saved_embeddings/my/none.txt  
+----code_name1.py  
+----code_name2.py 
 
 **0. Data preparation:**  
 Download the processed data files from Google drive: https://drive.google.com/drive/folders/1oIABLZE0UcEylLwiJrWY5R3rw7t739Zz?usp=sharing   
