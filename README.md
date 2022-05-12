@@ -1,5 +1,5 @@
 # ETL-master
-This is a pytorch implementation of our paper: "Towards Equivalent Transformation of User Preferences in Cross Domain Recommendation"   
+This is a pytorch implementation of our ACM Transactions on Information Systems (ACM TOIS) paper: "Towards Equivalent Transformation of User Preferences in Cross Domain Recommendation"   
 
 **Running Tips**  
 This folder contains the thhree datasets used in our paper and the codes of our ETL model. Specifically, main_my.py is our model and the other four main_xxx.py files are four variants of ETL in the abalation study of our paper.  
@@ -32,8 +32,6 @@ CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon2 --reg=0.5
 CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon3 --reg=1.0  
 
 In this way, you can get he results. Besides, if you want to run the variants of ETL, just follow the same way while with different main files.  
-
-This paper is submitted to a journal and we would release more information later.
 
 **If you find this paper or codes useful, please cite our paper. Thank you!**
 
