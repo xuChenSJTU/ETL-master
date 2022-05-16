@@ -23,13 +23,13 @@ python3.5; pytorch=1.4.0; tqdm=4.27.0; tensorboardX=1.8; pandas=0.25; numpy=1.15
 Run the codes with the following commands on different datasets (amazon means "Movie & Book", amazon2 means "Movie & Music" and amazon3 means "Music & Book").  
 
 -->on Movie & Book dataset: 
-CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon --reg=5.0  
+CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset amazon --reg 5.0  
 
 -->on Movie & Music dataset:  
-CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon2 --reg=0.5  
+CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset amazon2 --reg 0.5  
 
 -->on Music & Book dataset:  
-CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset=amazon3 --reg=1.0  
+CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset amazon3 --reg 1.0  
 
 In this way, you can get he results. Besides, if you want to run the variants of ETL, just follow the same way while with different main files.  
 
@@ -41,6 +41,6 @@ In this way, you can get he results. Besides, if you want to run the variants of
       author={Xu Chen and Ya Zhang and Ivor Tsang and Yuangang Pan and Jingchao Su},  
       year={2020},  
       eprint={2009.06884},  
-      archivePrefix={arXiv},  
+      archivePrefix={ACM Transactions on Information Systems},  
 }  
 
