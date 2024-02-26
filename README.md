@@ -33,6 +33,8 @@ CUDA_VISIBLE_DEVICES=gpu_num python main_my.py --dataset amazon3 --reg 1.0
 
 In this way, you can get he results. Besides, if you want to run the variants of ETL, just follow the same way while with different main files.  
 
+Moreover, if you want to do experments with different data sparsity, you can add "--s_percent ${ratio} --t_percent ${ratio}" to the above running commands.
+
 **If you find this paper or codes useful, please cite our paper. Thank you!**
 
 
